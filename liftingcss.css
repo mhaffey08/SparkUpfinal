@@ -1,0 +1,154 @@
+body,
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-family: Arial;
+  background-color: #5f5e63;
+  color: white;
+}
+
+nav {
+  background-color: #343434;
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+nav a:hover {
+  font-size: 220%;
+  transition-duration: 500ms;
+  background-color: #ddd;
+  color: #5f5e78;
+}
+
+nav li {
+  display: inline;
+}
+
+nav a {
+  text-align: center;
+  padding: 2% 3%;
+  text-decoration: none;
+  font-size: 2vw;
+  color: #ddd;
+}
+
+header {
+  background-color: #5f5e63;
+  font-size: 3.5vw;
+  text-align: center;
+  background-image: url("bolt.jpg");
+  background-size: cover;
+  background-position: center;
+  line-height: 4;
+  padding: 1%;
+  margin-top: 20%;
+}
+
+h1 {
+  font-size: 3vw;
+}
+
+h3 {
+  font-size: 2.5vw;
+}
+
+p {
+  font-size: 2vw;
+}
+
+table {
+  font-family: Arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 2%;
+}
+
+tr:nth-child(even) {
+  background-color: #3d3b3b;
+}
+
+.bigstuff {
+  background-color: #343434;
+}
+
+td:hover:nth-child(1) {
+  background-color: #077efe;
+  color: white;
+  font-size: 120%;
+  transition-duration: 500ms;
+}
+
+#benchboy,
+#pullupman,
+#squatlot {
+  max-width: 50%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border: 3px solid #fff;
+  text-align: center;
+}
+
+.text.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.text-box1,
+.text-box2,
+.text-box3,
+#summary {
+  background-color: #3d3b3b;
+  padding: 2%;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  margin: 2%;
+  text-align: center;
+  font-size: 2.25vw;
+  border: 3px solid #fff;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.top {
+  background-color: #3d3b3b;
+  padding: 2% 0 10%;
+  text-align: center;
+}
+
+.start {
+  text-align: center;
+  font-size: 3vw;
+}
+
+tr {
+  color: white;
+}
+
+a {
+  color: white;
+}
+
+.pulldaybackground {
+  background-color: #484444;
+}
+@media (max-width: 768px) {
+  nav a {
+    font-size: 14px;
+    padding: 10px;
+  }
+  header h1 {
+    font-size: 150%;
+  }
+}

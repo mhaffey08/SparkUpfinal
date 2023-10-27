@@ -1,0 +1,94 @@
+body,
+html {
+  height: 200%;
+  width: 100%;
+  margin: 0;
+  font-family: Arial;
+  background-color: #5f5e63;
+  color: white;
+}
+nav {
+  overflow: hidden;
+  background-color: #343434;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  width: 100%;
+  text-align: center;
+}
+nav a:hover {
+  font-size: 135%;
+  transition-duration: 500ms;
+  background-color: #ddd;
+  color: #5f5e78;
+}
+nav li {
+  display: inline;
+}
+nav a {
+  text-align: center;
+  display: inline-block;
+  padding: 20px 25px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #ddd;
+}
+header {
+  top: 25px;
+  color: white;
+  margin-top: -32px;
+  margin-left: -10px;
+  margin-right: -10px;
+  background-color: #5f5e63;
+  font-size: x-large;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-align: center;
+  padding-bottom: 1px;
+  background-image: url("bolt.jpg");
+  background-position: right;
+  background-size: 20%;
+  line-height: 400%;
+  text-indent: 1em;
+  background-repeat: no-repeat;
+}
+h3 {
+  text-align: center;
+  font-size: larger;
+}
+h1 {
+  text-align: center;
+}
+p {
+  font-size: x-large;
+}
+.image-container img {
+  max-width: 30%;
+  height: auto;
+  filter: grayscale(0%);
+  border: 3px solid #fff;
+}
+.image-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+p {
+  text-align: center;
+}
+.bbb {
+  background-color: #3c3c3e;
+  padding-bottom: 1000px;
+  padding-top: 25px;
+  border-top: 5px black;
+}
+.image-container2 {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.image-container2 img {
+  max-width: 30%;
+  height: auto;
+  filter: grayscale(0%);
+  border: 3px solid #fff;
+}
